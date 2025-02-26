@@ -9,13 +9,21 @@ const app = express();
 dotenv.config({ path: "./config/config.env" });
 // dotenv.config();
 
-app.use(
-  cors({
-    origin: [process.env.FRONTEND_URL],
+// app.use(
+//   cors({
+//     origin: [process.env.FRONTEND_URL],
+//     methods: ["POST"],
+//     credentials: true,
+//   })
+// );
+
+// Enable CORS
+app.use(cors({
+    origin: [process.env.FRONTEND_URL],  // Allow requests from your frontend
     methods: ["POST"],
-    credentials: true,
-  })
-);
+    allowedHeaders: "Content-Type,Authorization",
+    credentials: true
+}));
 
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
