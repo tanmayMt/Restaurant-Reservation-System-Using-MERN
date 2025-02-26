@@ -17,9 +17,15 @@ app.use(
   })
 );
 
-app.get("/",async(req,res)=>{
-    res.send("<h1>This is Home Route</h1>");
-})
+app.use(express.json());
+app.use(express.urlencoded({ extended: true }));
+
+
+app.get("/", (req, res, next)=>{
+  return res.status(200).json({
+    success: true,
+    message: "Home Route"
+})})
 app.use("/api/v1/reservation", reservationRouter);
 
 app.use(express.json());
