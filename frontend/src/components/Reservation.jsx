@@ -20,7 +20,6 @@ const Reservation = () => {
     try {
       const { data } = await axios.post(
         // "http://localhost:8006/api/v1/reservation/send",
-        // `${process.env.REACT_APP_API_BASE_URL}/api/v1/reservation/send`,
        `${import.meta.env.VITE_API_BASE_URL}/api/v1/reservation/send`,
 
 
