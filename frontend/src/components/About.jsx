@@ -13,13 +13,12 @@ const About = () => {
               <p>The only thing we're serious about is food.</p>
             </div>
             <p className="mid">
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-              Provident possimus optio adipisci dolores impedit illum iusto
-              perferendis, laudantium quod accusamus consequuntur consectetur,
-              tempore nulla error iure reiciendis dolorem assumenda.
-              Necessitatibus fugit asperiores totam rem esse exercitationem
-              iusto ipsum qui dolore ex, accusantium repellat mollitia
-              repellendus.
+  At DineEase, we believe that great food brings people together. 
+  Our chefs craft each dish with fresh, high-quality ingredients to deliver a 
+  delightful culinary experience. Whether you're here for a casual meal, a 
+  special celebration, or just to enjoy good food with loved ones, we ensure 
+  every bite is filled with flavor and passion. Join us for a memorable dining 
+  experience in a warm and welcoming atmosphere.
             </p>
             <Link to={"/"}>
               Explore Menu{" "}
