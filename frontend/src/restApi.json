@@ -5,19 +5,19 @@
                 "id": 1,
                 "image": "./quality_food.svg",
                 "title": "QUALITY FOOD",
-                "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis repellendus officia qui repellat." 
+                "description": "We use the freshest ingredients and expert techniques to serve you delicious, high-quality meals every time." 
             },
             {
                 "id": 2,
                 "image": "./super_taste.svg",
                 "title": "SUPER TASTE",
-                "description": "Lorem ipsum dolor sit amet consectetur, adipisicing sit amet elit. Sit voluptates quaerat pariatur." 
+                "description": "Experience a burst of rich flavors with every bite, crafted to satisfy your cravings and delight your senses." 
             },
             {
                 "id": 3,
                 "image": "./fast_delivery.svg",
                 "title": "FAST DELIVERY",
-                "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis repellendus officia qui repellat." 
+                "description": "Enjoy your favorite dishes delivered hot and fresh to your doorstep in no time!" 
             }
         ],
         "dishes": [
@@ -100,23 +100,23 @@
             {
                 "id": 1,
                 "image": "./review1.png",
-                "description": "Morbi nulla nec dui lacus, in. Libero in pretium metus massa. Sodales dignissim vitae mauris varius faucibus. Eleifend dui, non laoreet ac luctus facilisis diam. Enim scelerisque vel at id viverra tellus.",
+                "description": "A wonderful dining experience! The ambiance was cozy, the service was prompt, and the food was absolutely delicious. Will definitely visit again!",
                 "rating": 4,
-                "userName": "Jane Cooper"
+                "userName": "Avijit Das"
             },
             {
                 "id": 2,
                 "image": "./review2.png",
-                "description": "Tortor vel nunc netus pharetra enim, enim dolor mauris in. Sit nam fringilla in egestas. Libero condimentum quis in vulputate adipiscing venenatis augue. Venenatis faucibus.",
+                "description": "Great flavors and well-prepared meals! The staff was friendly, and the presentation was top-notch. Highly recommend this place for food lovers!",
                 "rating": 4.5,
-                "userName": "Esther Howard"
+                "userName": "Arohi Sen"
             },
             {
                 "id": 3,
                 "image": "./review3.png",
-                "description": "Tortor vel nunc netus pharetra enim, enim dolor mauris in. Sit nam fringilla in egestas. Libero condimentum quis in vulputate adipiscing venenatis augue. Venenatis faucibus.",
+                "description": "Absolutely fantastic! The food was fresh, the taste was incredible, and the service was outstanding. A must-visit for anyone who loves good food!",
                 "rating": 5,
-                "userName": "Guy Hawkins"
+                "userName": "Ronit Pal"
             }
         ],
         "who_we_are": [
