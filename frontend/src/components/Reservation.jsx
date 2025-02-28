@@ -4,6 +4,7 @@ import axios from "axios";
 import { useState } from "react";
 import toast from "react-hot-toast";
 import { useNavigate } from "react-router-dom";
+console.log(import.meta.env.REACT_APP_API_BASE_URL);
 
 const Reservation = () => {
   const [firstName, setFirstName] = useState("");
@@ -18,7 +19,12 @@ const Reservation = () => {
     e.preventDefault();
     try {
       const { data } = await axios.post(
-        "http://localhost:8006/api/v1/reservation/send",
+        // "http://localhost:8006/api/v1/reservation/send",
+        // `${process.env.REACT_APP_API_BASE_URL}/api/v1/reservation/send`,
+       `${import.meta.env.VITE_API_BASE_URL}/api/v1/reservation/send`,
+
+
+        // https://restaurant-reservation-system-using-mern.onrender.com/api/v1/reservation/send
         { firstName, lastName, email, phone, date, time },
         {
           headers: {
