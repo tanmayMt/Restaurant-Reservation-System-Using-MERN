@@ -68,17 +68,8 @@ const send_reservation = async (req, res, next) => {
       from: process.env.EMAIL_USER,
       to: email,
       subject: "Reservation Confirmation",
-      text: `Dear ${firstName} ${lastName},
-
-Your reservation at **DineMate** is confirmed for ${date} at ${time}.
-
-Restaurant Address:  
-RDB Boulevard, GP Block, Sector V, Bidhannagar, Kolkata, West Bengal
-
-We look forward to serving you!  
-
-Thank you!  
-DineMate Team`,
+      // text: `Dear ${firstName} ${lastName},\n\nYour reservation is confirmed for ${date} at ${time}.\n\nThank you!`,
+      text: `Dear ${firstName} ${lastName},\n\nYour reservation at **DineMate** is confirmed for ${date} at ${time}.\n\nRestaurant Details:\n📍 Address: RDB Boulevard, GP Block, Sector V, Bidhannagar, Kolkata, West Bengal\n🌐 Website: [Visit Us](https://restaurant-reservation-system-using-mern.vercel.app/)\n\nWe look forward to serving you!\n\nThank you!`,
     };
 
     // Send the email
