@@ -1,6 +1,5 @@
 import ErrorHandler from "../middlewares/error.js";
 import { Reservation } from "../models/reservation.js";
-import nodemailer from "nodemailer";
 
 
 const send_reservation = async (req, res, next) => {
